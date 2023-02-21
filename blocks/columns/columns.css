@@ -4,9 +4,12 @@
 }
 
 .columns img {
-    width: 100%;
+    width: 50%;
 }
 
+.columns {
+    background-color: blue;
+}
 @media (min-width: 900px) {
     .columns > div {
         display: flex;
